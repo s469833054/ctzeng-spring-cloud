@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
+import org.springframework.cloud.netflix.turbine.EnableTurbine;
 import org.springframework.context.annotation.Bean;
 
 /**
@@ -18,18 +19,11 @@ import org.springframework.context.annotation.Bean;
  **/
 @SpringBootApplication
 @EnableHystrixDashboard
+@EnableHystrix
+@EnableTurbine
 public class HystrixDashboardApplication {
     public static void main(String[] args) {
         SpringApplication.run(HystrixDashboardApplication.class,args);
-    }
-    @Bean
-    public ServletRegistrationBean getServlet() {
-        HystrixMetricsStreamServlet streamServlet = new HystrixMetricsStreamServlet();
-        ServletRegistrationBean registrationBean = new ServletRegistrationBean(streamServlet);
-        registrationBean.setLoadOnStartup(1);
-        registrationBean.addUrlMappings("/hystrix.stream");
-        registrationBean.setName("HystrixMetricsStreamServlet");
-        return registrationBean;
     }
 }
 

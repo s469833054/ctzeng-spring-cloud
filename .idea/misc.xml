@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/service-provider/pom.xml" />
         <option value="$PROJECT_DIR$/service-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/hystrix-dashborad/pom.xml" />
+        <option value="$PROJECT_DIR$/service-api/pom.xml" />
       </list>
     </option>
   </component>

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="service-consumer" />
         <module name="hystrix-dashborad" />
+        <module name="service-api" />
         <module name="service-provider" />
         <module name="eureka" />
       </profile>
@@ -15,6 +16,7 @@
     <bytecodeTargetLevel>
       <module name="eureka" target="1.8" />
       <module name="hystrix-dashborad" target="1.8" />
+      <module name="service-api" target="1.8" />
       <module name="service-consumer" target="1.8" />
       <module name="service-provider" target="1.8" />
     </bytecodeTargetLevel>
@@ -22,7 +24,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka" options="-parameters" />
-      <module name="hystrix-dashborad" options="-parameters" />
+      <module name="hystrix-dashborad" options="" />
+      <module name="service-api" options="-parameters" />
       <module name="service-consumer" options="-parameters" />
       <module name="service-provider" options="-parameters" />
     </option>
