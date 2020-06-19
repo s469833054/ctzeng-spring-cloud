@@ -13,6 +13,7 @@
         <module name="hystrix-dashborad" />
         <module name="service-api" />
         <module name="service-provider" />
+        <module name="service-config-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="service-api" target="1.8" />
       <module name="service-common" target="1.8" />
       <module name="service-config" target="1.8" />
+      <module name="service-config-client" target="1.8" />
       <module name="service-consumer" target="1.8" />
       <module name="service-provider" target="1.8" />
     </bytecodeTargetLevel>
@@ -32,6 +34,7 @@
       <module name="service-api" options="-parameters" />
       <module name="service-common" options="-parameters" />
       <module name="service-config" options="-parameters" />
+      <module name="service-config-client" options="-parameters" />
       <module name="service-consumer" options="-parameters" />
       <module name="service-provider" options="-parameters" />
     </option>

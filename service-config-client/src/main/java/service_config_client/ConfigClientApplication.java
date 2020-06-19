@@ -1,27 +1,23 @@
-package service_config;
+package service_config_client;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.config.server.EnableConfigServer;
 
 /**
- * 配置中心服务端
  * ______________________________
  *
- * @ClassName ConfigServerApplication
+ * @ClassName ConfigClientApplication
  * @Author ctzeng
- * @Date 2020/6/19 11:32
+ * @Date 2020/6/19 14:57
  * @Version V1.0
  **/
 @EnableDiscoveryClient
-@EnableConfigServer
 @SpringBootApplication
-public class ConfigServerApplication {
-
+public class ConfigClientApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ConfigServerApplication.class,args);
-        System.out.println("配置中心服务端启动成功!");
+        SpringApplication.run(ConfigClientApplication.class,args);
+        System.out.println("配置中心客户端启动成功!");
     }
 }
 

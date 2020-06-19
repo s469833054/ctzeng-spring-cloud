@@ -10,7 +10,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.ctzeng</groupId>
-    <artifactId>service-config</artifactId>
+    <artifactId>service-config-client</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
         <dependency>
