@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="service-config" />
         <module name="service-common" />
-        <module name="service-consumer" />
         <module name="eureka" />
+        <module name="service-consumer" />
         <module name="hystrix-dashborad" />
         <module name="service-api" />
         <module name="service-provider" />
@@ -19,6 +20,7 @@
       <module name="hystrix-dashborad" target="1.8" />
       <module name="service-api" target="1.8" />
       <module name="service-common" target="1.8" />
+      <module name="service-config" target="1.8" />
       <module name="service-consumer" target="1.8" />
       <module name="service-provider" target="1.8" />
     </bytecodeTargetLevel>
@@ -29,6 +31,7 @@
       <module name="hystrix-dashborad" options="" />
       <module name="service-api" options="-parameters" />
       <module name="service-common" options="-parameters" />
+      <module name="service-config" options="-parameters" />
       <module name="service-consumer" options="-parameters" />
       <module name="service-provider" options="-parameters" />
     </option>
