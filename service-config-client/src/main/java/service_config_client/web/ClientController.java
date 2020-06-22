@@ -1,6 +1,8 @@
 package service_config_client.web;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,9 +16,10 @@ import org.springframework.web.bind.annotation.RestController;
  * @Version V1.0
  **/
 @RestController
+@RefreshScope
 public class ClientController {
 
-    @Value("word")
+    @Value("${word}")
     private String word;
 
     @RequestMapping("/hello")

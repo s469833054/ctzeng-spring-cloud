@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90a55313-642a-4828-84b8-d4db4a7fb2f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_2_3_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-config/config-repo/config-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-config/config-repo/config-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-config/config-repo/config-pro.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-config/config-repo/config-pro.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-config-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-config-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-config-client/service-config-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service-config-client/service-config-client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-config-client/src/main/java/service_config_client/web/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-config-client/src/main/java/service_config_client/web/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-config-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-config-client/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-config-client/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-config-client/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-config/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-config/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-config/src/main/resources/config-pro.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-provider/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-provider/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-provider/target/classes/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/eureka/target/" />
@@ -42,19 +50,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-config-client/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-config-client/src/main/java/service_config_client/ConfigClientApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="231">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,12 +64,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-config-client/src/main/java/service_config_client/web/ClientController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="246">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#724#725#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,17 +78,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-config/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+            <state relative-caret-position="126">
+              <caret line="6" column="38" lean-forward="true" selection-start-line="3" selection-end-line="6" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-config/src/main/resources/config-pro.properties">
+        <entry file="file://$PROJECT_DIR$/service-config/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" selection-start-column="15" selection-end-column="15" />
+            <state relative-caret-position="231">
+              <caret line="26" column="43" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -97,26 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-config-client/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-config/config-repo/config-dev.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service-config/config-repo/config-pro.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            <state relative-caret-position="168">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -124,20 +105,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-config-client/src/main/resources/bootstrap.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+            <state relative-caret-position="84">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-config/src/main/java/service_config/ConfigServerApplication.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service-config-client/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -156,6 +134,7 @@
       <find>travelsky</find>
       <find>@L</find>
       <find>@LoadBalanced</find>
+      <find>word</find>
     </findStrings>
     <dirStrings>
       <dir>D:\WorkSpace\ctzeng-spring-cloud</dir>
@@ -201,22 +180,22 @@
         <option value="$PROJECT_DIR$/service-api/src/main/java/service_api/filter/ErrorFilter.java" />
         <option value="$PROJECT_DIR$/service-api/src/main/java/service_api/web/ErrorHandlerController.java" />
         <option value="$PROJECT_DIR$/service-api/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/service-provider/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/service-api/src/main/java/service_api/fallback/ServiceConsumerFallbackProvider.java" />
         <option value="$PROJECT_DIR$/service-api/src/main/java/service_api/filter/IpFilter.java" />
         <option value="$PROJECT_DIR$/service-config/pom.xml" />
         <option value="$PROJECT_DIR$/service-api/pom.xml" />
-        <option value="$PROJECT_DIR$/service-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/service-config-client/pom.xml" />
         <option value="$PROJECT_DIR$/service-config/src/main/java/service_config/ConfigServerApplication.java" />
         <option value="$PROJECT_DIR$/service-config-client/src/main/java/service_config_client/ConfigClientApplication.java" />
-        <option value="$PROJECT_DIR$/service-config-client/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/service-config-client/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/service-config-client/src/main/java/service_config_client/web/ClientController.java" />
         <option value="$PROJECT_DIR$/service-config/src/main/resources/config-pro.properties" />
-        <option value="$PROJECT_DIR$/service-config/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/service-config/config-repo/config-dev.properties" />
         <option value="$PROJECT_DIR$/service-config/config-repo/config-pro.properties" />
+        <option value="$PROJECT_DIR$/service-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/service-provider/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/service-config/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/service-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/service-config-client/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/service-config-client/src/main/java/service_config_client/web/ClientController.java" />
+        <option value="$PROJECT_DIR$/service-config-client/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -259,6 +238,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,6 +269,23 @@
               <item name="service-config" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ctzeng-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctzeng-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ctzeng-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctzeng-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service_config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ctzeng-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
@@ -351,11 +348,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ctzeng-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ctzeng-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -404,7 +405,7 @@
     </option>
     <option name="contentProportion" value="0.20131291" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigClientApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceProviderApplication">
     <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="service-config-client" />
       <extension name="coverage">
@@ -488,8 +489,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConfigServerApplication" />
         <item itemvalue="Spring Boot.ConfigClientApplication" />
+        <item itemvalue="Spring Boot.ConfigServerApplication" />
         <item itemvalue="Spring Boot.ZuulApplication" />
         <item itemvalue="Spring Boot.ServiceProviderApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
@@ -511,7 +512,9 @@
       <workItem from="1592380964991" duration="1554000" />
       <workItem from="1592382861979" duration="5855000" />
       <workItem from="1592442286707" duration="21836000" />
-      <workItem from="1592529214517" duration="17180000" />
+      <workItem from="1592529214517" duration="20390000" />
+      <workItem from="1592748560874" duration="10000" />
+      <workItem from="1592787643380" duration="11704000" />
     </task>
     <task id="LOCAL-00001" summary="zuul">
       <created>1592389239560</created>
@@ -541,17 +544,23 @@
       <option name="project" value="LOCAL" />
       <updated>1592553943364</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="配置管理中心提交">
+      <created>1592554301156</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592554301156</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72934000" />
+    <option name="totallyTimeSpent" value="87858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26877683" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27628756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -569,12 +578,12 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3295063" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005365" side_tool="true" weight="0.47990814" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50107294" side_tool="true" weight="0.510907" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3295063" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49946353" visible="true" weight="0.47990814" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49892703" visible="true" weight="0.510907" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -593,7 +602,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="zuul" />
     <MESSAGE value="配置管理" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置管理" />
+    <MESSAGE value="配置管理中心提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置管理中心提交" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-config-client/src/main/java/service_config_client/web/ClientController.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -911,13 +933,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-provider/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-api/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -945,82 +960,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service-consumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+        <state relative-caret-position="176">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="24" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-config/pom.xml">
+    <entry file="file://$PROJECT_DIR$/service-provider/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-config-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-config/src/main/java/service_config/ConfigServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-config-client/src/main/java/service_config_client/web/ClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="122">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service-config/src/main/resources/config-pro.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-config-client/src/main/java/service_config_client/ConfigClientApplication.java">
+    <entry file="file://$PROJECT_DIR$/service-config/config-repo/config-pro.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-config/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-config-client/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-config-client/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1031,10 +993,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-config/config-repo/config-pro.properties">
+    <entry file="file://$PROJECT_DIR$/service-config/src/main/java/service_config/ConfigServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        <state relative-caret-position="134">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-config-client/src/main/java/service_config_client/ConfigClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-config-client/src/main/java/service_config_client/web/ClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-config-client/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-config/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="38" lean-forward="true" selection-start-line="3" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-config-client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-config-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
         </state>
       </provider>
     </entry>
