@@ -7,13 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="service-config" />
-        <module name="service-common" />
         <module name="eureka" />
         <module name="service-consumer" />
         <module name="hystrix-dashborad" />
+        <module name="zipkin-server" />
         <module name="service-api" />
-        <module name="service-provider" />
+        <module name="service-common" />
         <module name="service-config-client" />
+        <module name="service-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,6 +26,8 @@
       <module name="service-config-client" target="1.8" />
       <module name="service-consumer" target="1.8" />
       <module name="service-provider" target="1.8" />
+      <module name="trace-zipkin" target="1.5" />
+      <module name="zipkin-server" target="1.6" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -37,6 +40,7 @@
       <module name="service-config-client" options="-parameters" />
       <module name="service-consumer" options="-parameters" />
       <module name="service-provider" options="-parameters" />
+      <module name="zipkin-server" options="" />
     </option>
   </component>
 </project>
